@@ -1,0 +1,53 @@
+.carousel-control-next,
+.carousel-control-prev {
+  border: none;
+  background: none;
+}
+.carousel-inner {
+  height: 565px;
+}
+
+.carousel-inner img {
+  height: 565px;
+  object-fit: cover;
+}
+.footer-sec {
+  background: url(../images/footr-bg.jpg);
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+/* product page */
+.product-card:hover {
+  box-shadow: 0px 0px 20px 0px rgb(115 128 157 / 26%);
+  border-radius: 9px;
+  border-bottom: 5px solid #ffd700;
+}
+.product-card {
+  transition: 0.3s;
+  border-bottom: 5px solid transparent;
+}
+
+/* common class */
+.bg-gray {
+  background: #f5f5f5;
+}
+.text-gray {
+  color: #808080;
+}
+/* font-size */
+.font-size-15 {
+  font-size: 15px;
+}
+.font-size-17 {
+  font-size: 17px;
+}
+.font-size-25 {
+  font-size: 25px;
+}
+.border-dash-2 {
+  border: 2px dashed #ededed;
+}
