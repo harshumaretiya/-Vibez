@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Libre+Baskerville:wght@700&display=swap");
+
+.font-family-domine {
+  font-family: "Domine", serif;
+}
+.font-family-libre {
+  font-family: "Libre Baskerville", serif;
+}
+
+body {
+  font-family: "Domine", serif;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
   border: none;
@@ -6,7 +19,6 @@
 .carousel-inner {
   height: 565px;
 }
-
 .carousel-inner img {
   height: 565px;
   object-fit: cover;
@@ -20,15 +32,34 @@
 a {
   text-decoration: none;
 }
+.nav-item a {
+  font-size: 20px;
+}
 /* product page */
-.product-card:hover {
+.product-card:hover{
   box-shadow: 0px 0px 20px 0px rgb(115 128 157 / 26%);
   border-radius: 9px;
-  border-bottom: 5px solid #ffd700;
+  border-bottom: 5px solid goldenrod;
 }
+.product-card img:hover {
+  transform: scale(1.1);
+}
+.product-card img {
+  transition: 0.5s;
+}
+
 .product-card {
-  transition: 0.3s;
+  transition: 0.5s;
   border-bottom: 5px solid transparent;
+}
+.social-menu-icon i:hover {
+  color: goldenrod;
+}
+.our-story-sec {
+  padding: 0 125px;
+}
+.footer-menu a:hover {
+  color: goldenrod;
 }
 
 /* common class */
@@ -38,6 +69,9 @@ a {
 .text-gray {
   color: #808080;
 }
+.color-goldenrod {
+  color: goldenrod;
+}
 /* font-size */
 .font-size-15 {
   font-size: 15px;
@@ -45,9 +79,37 @@ a {
 .font-size-17 {
   font-size: 17px;
 }
+.font-size-20 {
+  font-size: 20px;
+}
 .font-size-25 {
   font-size: 25px;
 }
+.font-size-40 {
+  font-size: 40px;
+}
 .border-dash-2 {
   border: 2px dashed #ededed;
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner {
+    height: 350px;
+  }
+  .carousel-inner img {
+    height: 350px;
+    object-fit: cover;
+  }
+  .navbar-brand-sec {
+    width: initial !important;
+  }
+  .ml-sm-57 {
+    margin-left: 57px;
+  }
+  .our-story-sec {
+    padding: 0 70px;
+  }
 }
