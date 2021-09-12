@@ -33,7 +33,7 @@ a {
   text-decoration: none;
 }
 .nav-item a {
-  font-size: 20px;
+  font-size: 16px;
 }
 /* product page */
 .product-card:hover{
@@ -69,9 +69,9 @@ a {
 .text-gray {
   color: #808080;
 }
-.color-goldenrod {
+/* .color-goldenrod {
   color: goldenrod;
-}
+} */
 /* font-size */
 .font-size-15 {
   font-size: 15px;
@@ -82,8 +82,8 @@ a {
 .font-size-20 {
   font-size: 20px;
 }
-.font-size-25 {
-  font-size: 25px;
+.font-size-35 {
+  font-size: 35px;
 }
 .font-size-40 {
   font-size: 40px;
