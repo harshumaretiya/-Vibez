@@ -94,13 +94,16 @@ a {
 .object-fit-cover {
   object-fit: cover;
 }
+picture source {
+  width: 100%;
+}
 
 @media (max-width: 768px) {
   .carousel-inner {
-    height: 350px;
+    height: 210px;
   }
   .carousel-inner img {
-    height: 350px;
+    height: 210px;
     object-fit: cover;
   }
   .navbar-brand-sec {
